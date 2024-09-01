@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .dessert-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .dessert-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .dessert-header h1 {
+            font-size: 2.5em;
+            color: #d9534f;
+            margin: 0;
+        }
+
+        .dessert-header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .dessert-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 20px;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .dessert-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .dessert-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .dessert-card h2 {
+            font-size: 1.8em;
+            color: #d9534f;
+            margin: 15px 0;
+        }
+
+        .dessert-card p {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        .dessert-card .price {
+            font-size: 1.3em;
+            color: #d9534f;
+            margin-top: 10px;
+        }
+
+        @media screen and (min-width: 768px) {
+            .dessert-card {
+                flex-direction: row;
+                align-items: flex-start;
+            }
+
+            .dessert-card img {
+                width: 20%;
+                height: auto;
+            }
+
+            .dessert-card-content {
+                width: 50%;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="dessert-section">
+        <div class="dessert-header">
+            <h1>Decadent Desserts</h1>
+            <p>Indulge in our exquisite range of desserts, crafted to perfection.</p>
+        </div>
+        <div class="dessert-card">
+            <img src="./dessert/choklate.jpg" alt="Chocolate Cake">
+            <div class="dessert-card-content">
+                <h2>Chocolate Cake</h2>
+                <p>A rich and moist chocolate cake layered with creamy chocolate frosting. A chocolate lover's dream!</p>
+                <div class="price">800 TK</div>
+            </div>
+        </div>
+        <div class="dessert-card">
+            <img src="./dessert/cheez.jpg" alt="Cheesecake">
+            <div class="dessert-card-content">
+                <h2>Cheesecake</h2>
+                <p>Classic creamy cheesecake with a buttery graham cracker crust, topped with your choice of fruit compote.</p>
+                <div class="price">1200 TK</div>
+            </div>
+        </div>
+        <div class="dessert-card">
+            <img src="./dessert/tiramisu.jpg" alt="Tiramisu">
+            <div class="dessert-card-content">
+                <h2>Tiramisu</h2>
+                <p>Layers of espresso-soaked ladyfingers and mascarpone cream, dusted with cocoa powder. An Italian favorite!</p>
+                <div class="price">950 TK</div>
+            </div>
+        </div>
+        <div class="dessert-card">
+            <img src="./dessert/Apple Pie.jpg" sizes="100px" alt="Apple Pie">
+            <div class="dessert-card-content">
+                <h2>Apple Pie</h2>
+                <p>Homemade apple pie with a flaky crust and spiced apple filling. Served warm with a scoop of vanilla ice cream.</p>
+                <div class="price">550 TK</div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+</body>
+</html>

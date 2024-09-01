@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        .one {
+            color: rgb(233, 233, 233);
+            background-color: brown;
+            margin-left: 150px;
+            transition: background-color 0.3s ease, transform 0.5s ease;
+            margin-bottom: 10px;
+        }
+
+        .one:hover {
+            background-color: rgb(139, 0, 109);
+            color: rgb(255, 255, 255);
+            transform: scale(1.05);
+        }
+
+        .button2 {
+            color: rgb(233, 233, 233);
+            background-color: rgb(255, 0, 0);
+            margin-left: 150px;
+            transition: background-color 0.3s ease, transform 0.5s ease;
+            margin-bottom: 10px;
+        }
+
+        .button2:hover {
+            background-color: rgb(139, 0, 109);
+            color: rgb(255, 255, 255);
+            transform: scale(1.05);
+        }
+
+        body {
+            background-image: url(https://img.freepik.com/free-vector/restaurant-mural-wallpaper_23-2148695092.jpg);
+
+        }
+
+        button a {
+            text-decoration: none;
+            color: azure;
+        }
+
+        span {
+            font-weight: bolder;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar" style="background-color: #333; overflow: hidden;">
+            <ul class="nav-list" style="list-style-type: none; margin: 0; padding: 0; display: flex; justify-content: space-around;">
+                <li style="display: inline;"><a href="about.html" style="color: white; padding: 14px 20px; text-decoration: none; display: block;">About</a></li>
+                <li style="display: inline;"><a href="Dessert.html" style="color: white; padding: 14px 20px; text-decoration: none; display: block;">Dessert</a></li>
+                <li style="display: inline;"><a href="Appetizer.html" style="color: white; padding: 14px 20px; text-decoration: none; display: block;">Appetizer</a></li>
+                <li style="display: inline;"><a href="pasta.html" style="color: white; padding: 14px 20px; text-decoration: none; display: block;">Pasta</a></li>
+                <li style="display: inline;"><a href="salad.html" style="color: white; padding: 14px 20px; text-decoration: none; display: block;">Salad</a></li>
+                <li style="display: inline;"><a href="burger.html" style="color: white; padding: 14px 20px; text-decoration: none; display: block;">Burger</a></li>
+                <li style="display: inline;"><a href="pizza.html" style="color: white; padding: 14px 20px; text-decoration: none; display: block;">Pizza</a></li>
+                <li style="display: inline;"><a href="#" style="color: white; padding: 14px 20px; text-decoration: none; display: block;">More Recipes</a></li>
+                <li style="display: inline;"><a href="order.html" style="background-color: #ff4500; color: white; padding: 14px 20px; border-radius: 5px; text-transform: uppercase; font-weight: bold; text-decoration: none; transition: background-color 0.3s ease;">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div style="background-color: chartreuse">
+        <h1
+            style="color: black; text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; ">
+            Specific Food Place</h1>
+    </div>
+    <div style="display: flex; gap: 10px; margin-top: 10px; justify-content: center; ">
+        <div style=" border: 5px solid black; width: 220px; border-radius: 5px; background-color: rgb(122, 22, 22);">
+            <img src="pizza.jpg" alt="Avatar" style="  width: 220px;  ">
+            <div>
+                <h1 style=" font-family: sans-serif; font-weight: bolder; color: azure">Pizza</h1>
+                <p style="color: greenyellow;">For order click below</p>
+                <button class="one" style="cursor: pointer ;  "> <a href="">Click me</a></button>
+            </div>
+        </div>
+        <div style=" border: 5px solid black; width: 220px; border-radius: 5px; background-color: rgb(122, 22, 22);">
+            <img src="pasta.jpg" alt="Avatar" style="  width: 220px; ">
+            <div>
+                <h1 style=" font-family: sans-serif; font-weight: bolder; color: azure">Pasta</h1>
+                <p style="color: greenyellow;">For order click below</p>
+                <button class="one" style="cursor: pointer ; "> <a href="pasta.html">Click me</a></button>
+            </div>
+        </div>
+        <div style=" border: 5px solid black; width: 220px; border-radius: 5px; background-color: rgb(122, 22, 22);">
+            <img src="burger.jpg" alt="Avatar" style="  width: 220px; ">
+            <div>
+                <h1 style=" font-family: sans-serif; font-weight: bolder; color: azure">Burger</h1>
+                <p style="color: greenyellow;">For order click below</p>
+                <button class="one" style="cursor: pointer;"> <a href="burger.html">Click me</a></button>
+            </div>
+        </div>
+        <div style=" border: 5px solid black; width: 220px; border-radius: 5px; background-color: rgb(122, 22, 22);">
+            <img src="sand.jpg" alt="Avatar" style="  width: 220px; ">
+            <div>
+                <h1 style=" font-family: sans-serif; font-weight: bolder; color: azure">Sandwiches</h1>
+                <p style="color: greenyellow;">For order click below</p>
+                <button class="one" style="cursor: pointer  ;   "> <a href="">Click me</a></button>
+            </div>
+        </div>
+        <div style=" border: 5px solid black; width: 220px; border-radius: 5px; background-color: rgb(122, 22, 22);">
+            <img src="frence.jpg" alt="Avatar" style="  width: 220px; ">
+            <div>
+                <h1 style=" font-family: sans-serif; font-weight: bolder; color: azure">French Fries</h1>
+                <p style="color: greenyellow;">For order click below</p>
+                <button class="one" style="cursor: pointer  ;   "> <a href="">Click me</a></button>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; gap: 15px; border: 150px 150px;">
+        <div
+            style=" margin-top: 20px; border: 5px solid black; width: 220px; border-radius: 5px; background-color: rgb(108, 231, 149);">
+            <h2 style="font-family: sans-serif; font-weight: bolder; color: darkred;">About Restorent</h2>
+            <p style="color:black;">Discover the Essence of Our Dining Experience
+                Where Tradition Meets Innovation
+            </p>
+            <button class="button2" style="cursor: pointer; margin-left: 75px;"> <a href="about.html"></a>Click me</button>
+        </div>
+        <div
+            style=" margin-top: 20px; border: 5px solid black; width: 220px; border-radius: 5px; background-color: rgb(108, 231, 149);">
+            <h2 style="font-family: sans-serif; font-weight: bolder; color: darkred;">Price List</h2>
+            <p style="color:black ;">If do you want more prices item, please <span>Check</span> our price list
+                ..............
+
+            </p>
+            <button class="button2" style="cursor: pointer; margin-left: 75px;">Click me<a href=""></a></button>
+        </div>
+        <div
+            style=" margin-top: 20px; border: 5px solid black; width: 220px; border-radius: 5px; background-color: rgb(108, 231, 149);">
+            <h2 style="font-family: sans-serif;margin-top: 20px; font-weight: bolder; color:darkred">More Item</h2>
+            <p style="color:black ;">Do you want our more item?  Please order <span>Check</span> moore item ............
+
+            </p>
+            <button class="button2" style="cursor: pointer; margin-left: 75px;">Click me<a href=""></a></button>
+        </div>
+
+    </div>
+    <div style="display: flex; gap: 10px; margin-top: 10px; justify-content: center; ">
+        <div style=" border: 5px solid black; width: 220px; border-radius: 5px; background-color: rgb(25, 7, 126);">
+            <img src="wattermillon.jpg" alt="Avatar" style="  width: 220px;  ">
+            <div>
+                <h1 style=" font-family: sans-serif;  font-weight: bolder; color: rgb(255, 153, 0)">Watermelon Juice</h1>
+                <p style="color: greenyellow;">For order click below</p>
+                <button class="one" style="cursor: pointer ;  "> <a href="">Click me</a></button>
+            </div>
+        </div>
+        <div style=" border: 5px solid black; width: 220px; border-radius: 5px; background-color: rgb(25, 7, 126);">
+            <img src="stra.jpg" alt="Avatar" style="  width: 220px; ">
+            <div>
+                <h1 style=" font-family: sans-serif; font-weight: bolder; color: rgb(255, 153, 0)">Strawberry-Kiwi Juice</h1>
+                <p style="color: greenyellow;">For order click below</p>
+                <button class="one" style="cursor: pointer ; "> <a href="">Click me</a></button>
+            </div>
+        </div>
+        <div style=" border: 5px solid black; width: 220px; border-radius: 5px; background-color: rgb(25, 7, 126);">
+            <img src="pinaple.jpg" alt="Avatar" style="  width: 220px; ">
+            <div>
+                <h1 style=" font-family: sans-serif; font-weight: bolder; color: rgb(255, 153, 0)">Pineapple-Mango Juice</h1>
+                <p style="color: greenyellow;">For order click below</p>
+                <button class="one" style="cursor: pointer;"> <a href="">Click me</a></button>
+            </div>
+        </div>
+        <div style=" border: 5px solid black; width: 220px; border-radius: 5px; background-color: rgb(25, 7, 126);">
+            <img src="cherry.jpg" alt="Avatar" style="  width: 220px; ">
+            <div>
+                <h1 style=" font-family: sans-serif; font-weight: bolder; color: rgb(255, 153, 0)">Cherry Lime Juice</h1>
+                <p style="color: greenyellow;">For order click below</p>
+                <button class="one" style="cursor: pointer  ;   "> <a href="">Click me</a></button>
+            </div>
+        </div>
+        <div style=" border: 5px solid black; width: 220px; border-radius: 5px; background-color: rgb(25, 7, 126);">
+            <img src="carrrot.jpg" alt="Avatar" style="  width: 220px; ">
+            <div>
+                <h1 style=" font-family: sans-serif; font-weight: bolder; color: rgb(255, 153, 0)">Carrot-Apple Ginger Juice</h1>
+                <p style="color: greenyellow;">For order click below</p>
+                <button class="one" style="cursor: pointer  ;   "> <a href="">Click me</a></button>
+            </div>
+        </div>
+    </div> 
+<div>
+    <img style="width: 1120px; height: 320px; justify-content: center; text-align: center;
+     margin-top: 15px; align-items: center; display: flex; margin-left: 110px;" src="bannar2.jpg" alt="">
+</div>    
+  
+
+</body>
+
+</html>

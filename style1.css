@@ -1,0 +1,59 @@
+Basic reset to remove default styles
+/* .one li{
+    float: left;
+    color: darkgreen;
+    background-color: #fff;
+} */
+
+/* .contain li{
+    align-items: center; 
+    
+
+} */
+/* .btn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 30px;
+    margin-left: 20px;
+}
+.contain{ */
+    /* text-align: center;
+    margin-top: 100px;
+} */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-list li {
+    float: left;
+}
+
+.nav-list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    background-color: #111;
+}
+
+
+

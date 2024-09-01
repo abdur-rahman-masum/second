@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Masum/user"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "fist website"
+	}
+}
